@@ -1,0 +1,16 @@
+# Core AWS SDK
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Streamlit Web UI
+streamlit>=1.48.0
+
+# Vector Database
+chromadb>=1.0.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0

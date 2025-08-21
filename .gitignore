@@ -1,0 +1,14 @@
+# Claude
+.claude
+
+# Python
+__pycache__
+venv/
+
+# Vector DBs
+analysis_dress_db/
+analysis_full_db/
+
+# Processed images and results
+analysis/
+fashion_similarity_analysis_results.json
