@@ -93,11 +93,6 @@ streamlit run fashion_similarity_ui.py
 - **비교 결과**: 드레스 전용(분할 이미지) vs 전체 이미지(원본) 나란히 표시
 - **상세 정보**: 유사도 점수, 거리 값, 순위별 결과
 
-### 3. 명령행 인터페이스 (선택사항)
-```bash
-python3 fashion_similarity_cli.py --query sample_images/output/dress.png both 5
-```
-
 ## 핵심 결과
 
 ### 드레스 전용 검색의 장점
