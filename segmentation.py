@@ -17,7 +17,7 @@ class ImageError(Exception):
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-def generate_segmentation_mask(image_path, mask_prompt, model_id='amazon.titan-image-generator-v1', region='us-west-2'):
+def generate_segmentation_mask(image_path, mask_prompt, model_id='amazon.titan-image-generator-v2:0', region='us-west-2'):
     """
     Generate segmentation mask using Amazon Titan Image Generator G1 with inpainting.
     
